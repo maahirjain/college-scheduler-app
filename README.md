@@ -21,4 +21,6 @@ The form data is used to instantiate a child class of the ActionItem object, whi
 ## Modify/Delete
 The modify or delete functionality relies on keeping track of each CardView and buttons in them according to their index in the ArrayList that we maintain. Once a user clicks on the modify button the app confirms that the user wants to proceed and then redirects to the form while passing the ArrayList and the index of the above CardView. Once the form updates the ArrayList it returns it back to the display page where we then repopulate according to the new ArrayList. Similarly for the delete functionality as we are aware of the index of the Item we can directly remove items from the ArrayList and then repopulate the page once again with the new data.
 
+https://github.com/maahirjain/college-scheduler-app/assets/140958721/af9d78c5-8a57-4084-a0d1-2e842e14934b
+
 I worked on this project with two other peers at Georgia Tech.
