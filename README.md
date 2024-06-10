@@ -11,7 +11,7 @@ The app provides interactive, card-based displays of courses, exams, assignments
 
 The displays also allow the user to sort by due date, course, or complete/incomplete. To achieve this, the base functionality of all objects (courses, exams, assignments, todos) is captured in a base ActionItem class. The app maintains an ArrayList of all ActionItem objects, and we can filter the relevant items and then use comparators to sort the data by various criteria.
 
-To create unique CardViews for each of our Items, we first made sure to initialize a base XML layout for a CardView and implemented methods in each subclasses that would modify and return this CardView accordingly. Hence we used the principles of inheritance to reduce our code.
+To create unique CardViews for each of our Items, we first made sure to initialize a base XML layout for a CardView and implemented methods in each subclass that would modify and return this CardView accordingly. Hence we used the principles of inheritance to reduce our code.
 ​
 ## Add
 The add functionality of the app can be accessed by clicking the plus icon in the bottom right for each category (classes, assignments, exams, and to-dos). This directs the user to a form where they can add relevant information in the fields, leaving fields blank as desired. The type of form input is set to match the required type of data, such as multi-choice selection for the "Days of the week" field. Once the user saves their information, a pop-up message confirms if the save was successful, and the inputted information is displayed on the main page of each category.
