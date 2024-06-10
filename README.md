@@ -1,6 +1,6 @@
 # College Scheduler App
 
-This app contains features for college students to manage their classes, assignments, exams, and other miscellaneous to-dos. Here is a description of what it can do.
+This Android app contains features for college students to manage their classes, assignments, exams, and other miscellaneous to-dos. Here is a description of what it can do.
 
 ## Display
 The app provides interactive, card-based displays of courses, exams, assignments, and to-dos. It displays all relevant info such as:
