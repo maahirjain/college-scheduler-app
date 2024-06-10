@@ -1,15 +1,15 @@
 # College Scheduler App
 
-This app contains features for college students to manage their classes, assignments, exams, and other miscellaneous todos. Here is a description of what it can do.
+This app contains features for college students to manage their classes, assignments, exams, and other miscellaneous to-dos. Here is a description of what it can do.
 
 ## Display
-The app provides interactive, card-based displays of courses, exams, assignments, and todos. It displays all relevant info such as:
+The app provides interactive, card-based displays of courses, exams, assignments, and to-dos. It displays all relevant info such as:
 - Courses: title, course code, section, instructor, location, room number, time, days of the week, etc.
 - Assignments: title, associated course, due date and time, complete/incomplete
 - Exams: title, associates course, date, time, location, complete/incomplete
-- Todo: title, associated course (if any), due date and time, complete/incomplete
+- To-do: title, associated course (if any), due date and time, complete/incomplete
 
-The displays also allow the user to sort by due date, course, or complete/incomplete. To achieve this, the base functionality of all objects (courses, exams, assignments, todos) is captured in a base ActionItem class. The app maintains an ArrayList of all ActionItem objects, and we can filter the relevant items and then use comparators to sort the data by various criteria.
+The displays also allow the user to sort by due date, course, or complete/incomplete. To achieve this, the base functionality of all objects (courses, exams, assignments, to-dos) is captured in a base ActionItem class. The app maintains an ArrayList of all ActionItem objects, and we can filter the relevant items and then use comparators to sort the data by various criteria.
 
 To create unique CardViews for each of our Items, we first made sure to initialize a base XML layout for a CardView and implemented methods in each subclass that would modify and return this CardView accordingly. Hence we used the principles of inheritance to reduce our code.
 ​
